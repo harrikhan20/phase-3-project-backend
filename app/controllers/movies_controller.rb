@@ -2,13 +2,13 @@ class MoviesController < ApplicationController
 
   # GET: /movies
   get "/movies" do
-    
+    Movie.all.to_json(include: :reviews)
   end
 
 
   # POST: /movies
   post "/movies" do
-    binding.pry
+    
   end
 
   # GET: /movies/5
