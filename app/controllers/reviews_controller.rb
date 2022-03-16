@@ -5,7 +5,6 @@ class ReviewsController < ApplicationController
     
   end
 
-  
 
   # POST: /reviews
   post "/reviews" do
@@ -17,7 +16,6 @@ class ReviewsController < ApplicationController
     
   end
 
- 
 
   # PATCH: /reviews/5
   patch "/reviews/:id" do
@@ -26,6 +24,6 @@ class ReviewsController < ApplicationController
 
   # DELETE: /reviews/5/delete
   delete "/reviews/:id/delete" do
-   
+    
   end
 end
