@@ -9,6 +9,6 @@ movie_length: 118, genre: "Action", actor_list: "Paul Rudd, Evangeline Lilly, Mi
 
 Review.create(rating: 9, text: "This movie was fantastic", movie: avengers)
 Review.create(rating: 5, text: "This movie could have been better", movie: antman)
-
+Review.create(rating: 7, text: "This movie was very funny", movie: )
 
 
